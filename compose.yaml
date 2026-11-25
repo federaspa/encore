@@ -1,0 +1,9 @@
+services:
+  wrapped:
+    image: nginx:mainline-alpine
+    container_name: wrapped
+    ports:
+      - '8090:80'
+    volumes:
+      - './site:/usr/share/nginx/html:ro'
+    restart: unless-stopped

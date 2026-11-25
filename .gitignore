@@ -1,0 +1,12 @@
+# Secrets and generated output
+wrapped.env
+site/
+generate.log
+__pycache__/
+*.pyc
+
+# Local build notes (not published)
+SPEC.md
+PLAN.md
+README.txt
+.ledger.md
